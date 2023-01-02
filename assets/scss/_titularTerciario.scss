@@ -1,0 +1,22 @@
+.titularesTerciarios{
+    display: flex;
+    .titularTerciario{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        margin: 1.66%;
+        .titularTerciario__IMG{
+            width: 90%;
+            margin: 2% 5% 1% 5%;
+            #titularTerciario__IMG{
+                width: 100%;
+            }
+        }
+        .titularTerciario__TITULO{
+            margin: 1% 4%;
+        }
+        .titularTerciario__SUBTITULO{
+            margin: 1% 4%;
+        }
+    }
+}
