@@ -1,0 +1,67 @@
+.recomendadosH2{
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    background-color: #9E0200;
+    padding: 0.8%;
+    color: white;
+}
+    
+.recomendados{
+    background-color: #080907f8;
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5% 6% 3%;
+    height: 27rem;
+    
+    .recomendado{
+        height: 22em;
+        overflow: hidden;
+        background-color: #080907;
+        border-radius: 1rem;
+        padding: 1.1em 1.1em 0;
+    }
+    .libro, .pelicula{
+        display: flex;
+        flex-direction: column;
+        margin: 1%;
+        width: 22%;
+        transition: all 1s;
+        .libroTXT, .peliculaP{
+            color: #fcfcfc;
+            transition: background .4s linear;
+            padding: 1% 0 0%;
+            overflow-y: hidden;
+        }
+        .blur{
+            position: relative;
+            left: 0;
+            bottom: 0;
+            background-image: linear-gradient(transparent,#080907, #080907);
+            width: 100%;
+            height: 4em;
+            margin: -18% 0 0 0;
+        }
+        .recomendadoTITLE{
+            padding: 0 0 4% 0;
+            color: #fcfcfc;
+        }
+        .peliculaIMG__parent, .libroIMG__parent{
+            width: 100%;
+            .pelicula__IMG, .libro__IMG{
+                width: 100%;
+            }
+        }
+        &:hover{
+            height: fit-content;
+            transition: all 0.5s;
+            transform: translateY(-12px);
+            transform: scale(1.1 1.1);
+            .blur{
+                visibility: hidden;
+            }
+        }
+    }
+
+   
+}

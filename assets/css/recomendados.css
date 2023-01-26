@@ -1,0 +1,10 @@
+aside {
+  background-color: #080907;
+  width: 100px;
+  height: 300px;
+  border: 10px solid navy;
+  display: flex;
+}
+aside .pelicula, aside .libro {
+  width: 22%;
+}/*# sourceMappingURL=recomendados.css.map */
