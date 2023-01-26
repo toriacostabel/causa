@@ -8,7 +8,7 @@
 }
     
 .recomendados{
-    background-color: #080907f8;
+    background-color: #080907fb;
     display: flex;
     justify-content: space-around;
     padding: 1.5% 6% 3%;
@@ -20,6 +20,7 @@
         background-color: #080907;
         border-radius: 1rem;
         padding: 1.1em 1.1em 0;
+        
     }
     .libro, .pelicula{
         display: flex;
@@ -27,7 +28,7 @@
         margin: 1%;
         width: 22%;
         transition: all 1s;
-        .libroTXT, .peliculaP{
+        .libroP, .peliculaP{
             color: #fcfcfc;
             transition: background .4s linear;
             padding: 1% 0 0%;
@@ -56,7 +57,10 @@
             height: fit-content;
             transition: all 0.5s;
             transform: translateY(-12px);
-            transform: scale(1.1 1.1);
+            transform: scale(1.05 1.05);
+            box-shadow: 0px 6px 72px -25px rgba(107,107,107,0.75);
+            -webkit-box-shadow: 0px 6px 72px -25px rgba(107,107,107,0.75);
+            -moz-box-shadow: 0px 6px 72px -25px rgba(107,107,107,0.75);
             .blur{
                 visibility: hidden;
             }
